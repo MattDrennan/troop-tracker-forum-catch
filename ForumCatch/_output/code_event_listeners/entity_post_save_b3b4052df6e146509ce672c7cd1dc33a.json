@@ -1,0 +1,9 @@
+{
+    "event_id": "entity_post_save",
+    "execute_order": 10,
+    "callback_class": "TroopTracker\\ForumCatch\\Listener",
+    "callback_method": "TroopTracker_Entity_Save",
+    "active": true,
+    "hint": "XF\\Entity\\Post",
+    "description": ""
+}
