@@ -12,7 +12,7 @@ namespace TroopTracker\ForumCatch;
 use XF\Mvc\Entity\Entity;
 
 // Set absolute path to cred file here
-require "/Applications/MAMP/htdocs/501-troop-tracker/cred.php";
+require "/opt/bitnami/apache/htdocs/troop-tracker/cred.php";
 
 class Listener
 {

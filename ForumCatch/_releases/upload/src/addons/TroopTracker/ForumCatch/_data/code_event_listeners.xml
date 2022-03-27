@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<code_event_listeners>
-  <listener event_id="entity_post_save" execute_order="10" callback_class="TroopTracker\ForumCatch\Listener" callback_method="TroopTracker_Entity_Save" active="1" hint="XF\Entity\Post"/>
-  <listener event_id="entity_pre_delete" execute_order="10" callback_class="TroopTracker\ForumCatch\Listener" callback_method="TroopTracker_Entity_Delete" active="1" hint="XF\Entity\Post"/>
-</code_event_listeners>
