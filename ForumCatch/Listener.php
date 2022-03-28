@@ -19,7 +19,7 @@ class Listener
     public static function TroopTracker_Entity_Save($entity)
     {
         // Set forums to check
-        $forumCheck = array(445, 7, 186, 8, 73, 9);
+        $forumCheck = array(445, 7, 186, 8, 73, 9, 213, 212, 211);
 
         // Set event node check
         $isEventNode = false;
