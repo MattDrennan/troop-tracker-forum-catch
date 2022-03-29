@@ -18,6 +18,9 @@ class Listener
 {
     public static function TroopTracker_Entity_Save($entity)
     {
+        // Prevent duplicate - API Request
+        if(isset($_POST['api_bypass_permissions'])) { return false; }
+
         // Set forums to check
         $forumCheck = array(445, 7, 186, 8, 73, 9, 213, 212, 211);
 
