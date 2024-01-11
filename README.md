@@ -1,3 +1,5 @@
+**** THIS PROJECT IS DEPRECIATED ****
+
 # troop-tracker-forum-catch
 A Xenforo addon that connects to Troop Tracker. This addon captures replies to event posts on the forum, and cross posts to the Troop Tracker.
 
